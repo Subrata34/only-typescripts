@@ -1,2 +1,2 @@
-var userName="subrata modak";
-console.log(userName);
+var user = "subrata modak";
+console.log(user);

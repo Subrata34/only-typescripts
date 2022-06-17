@@ -1,2 +1,2 @@
-let userName:string= "subrata modak";
-console.log(userName);
+const  user= "subrata modak";
+console.log(user);
