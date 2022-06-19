@@ -12,3 +12,8 @@ isActived=true;
 fullname=firstname.concat(lastname);
 console.log(`your id :${userId} and full name ${fullname}`);
 console.log(fullname.split(" "))
+
+function display(){
+    console.log("hi I am subrata modak");
+}
+display();
