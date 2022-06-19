@@ -10,3 +10,4 @@ lastname = "modak";
 isActived = true;
 fullname = firstname.concat(lastname);
 console.log("your id :".concat(userId, " and full name ").concat(fullname));
+console.log(fullname.split(" "));
