@@ -6,3 +6,5 @@ function displayunion(userID) {
 }
 displayunion(100);
 displayunion("500");
+displayunion("1000");
+displayunion("2000");

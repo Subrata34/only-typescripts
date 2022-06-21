@@ -7,3 +7,5 @@ function displayunion(userID:string|number){
 }
 displayunion(100);
 displayunion("500");
+displayunion("1000");
+displayunion("2000");
