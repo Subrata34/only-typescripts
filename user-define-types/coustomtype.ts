@@ -10,3 +10,10 @@ users.push(user2);
 for(const key in users){
     console.log(users[key]);
 };
+type requesttype="get"|"post";
+let r4equest:requesttype;
+r4equest="get";
+function requesthandle(requestType:requesttype){
+    console.log(requestType)
+}
+requesthandle("get");

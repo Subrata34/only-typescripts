@@ -10,3 +10,9 @@ for (var key in users) {
     console.log(users[key]);
 }
 ;
+var r4equest;
+r4equest = "get";
+function requesthandle(requestType) {
+    console.log(requestType);
+}
+requesthandle("get");
