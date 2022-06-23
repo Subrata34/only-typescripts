@@ -7,3 +7,11 @@ var RequestType;
     RequestType[RequestType["delateData"] = 3] = "delateData";
 })(RequestType || (RequestType = {}));
 console.log(RequestType);
+//string enm value 
+var Requestdata;
+(function (Requestdata) {
+    Requestdata["readData"] = "readData";
+    Requestdata["deleatedata"] = "deletdata";
+    Requestdata["savedata"] = "savedata";
+})(Requestdata || (Requestdata = {}));
+console.log(Requestdata.readData);

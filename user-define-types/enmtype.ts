@@ -6,3 +6,12 @@ enum RequestType{
     delateData
 }
 console.log(RequestType);
+
+//string enm value 
+
+enum Requestdata{
+    readData="readData",
+    deleatedata="deletdata",
+    savedata="savedata"
+}
+console.log(Requestdata.readData);
