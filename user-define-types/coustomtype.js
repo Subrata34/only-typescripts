@@ -9,3 +9,4 @@ users.push(user2);
 for (var key in users) {
     console.log(users[key]);
 }
+;
