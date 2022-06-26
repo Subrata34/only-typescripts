@@ -13,7 +13,7 @@ class User{
     }
 }
 
-//let number1=new User("subrata",25);
-//number1.display();
+let number1=new User("subrata",25);
+number1.display();
 let number2=new User("hamind",85);
 number2.display();

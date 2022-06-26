@@ -8,7 +8,7 @@ var User = /** @class */ (function () {
     };
     return User;
 }());
-//let number1=new User("subrata",25);
-//number1.display();
+var number1 = new User("subrata", 25);
+number1.display();
 var number2 = new User("hamind", 85);
 number2.display();
