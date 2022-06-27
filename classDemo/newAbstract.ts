@@ -1,29 +1,28 @@
-class Mamber{
-    personName:string;
-    mamberAge :number;
-
-    constructor(mamberName:string,mamberAge:number){
-        this.personName=mamberName;
-        this.mamberAge=mamberAge;
-
+abstract class Person {
+    userName: string;
+    age: number;
+  
+    constructor(userName: string, age: number) {
+      this.userName = userName;
+      this.age = age;
     }
-
-    display():void{
-        console.log(`Mamber mamber name: ${this.personName} \n Mamber Age :${this.mamberAge}`)
-    }
-}
-
-class children extends Mamber{
-    mamberId :number;
-
-    constructor(personName:string,mamberAge:number,mamberId:number){
-        super(personName,mamberAge);
-        this.mamberId=mamberId;
+  
+    abstract display(): void;
+  }
+  
+  class children extends Person {
+    studentId: number;
+  
+    constructor(userName: string, age: number, studentId: number) {
+      super(userName, age);
+      this.studentId = studentId;
     }
     display(): void {
-        console.log(`this is Name: ${this.personName} \n Age: ${this.mamberAge} \n Mamber ID : ${this.mamberId}`)
+      console.log(
+        `username: ${this.userName}, age: ${this.age}, id: ${this.studentId}`
+      );
     }
-}
-
-let name3=new children("subrata",45,56);
-name3.display();
+  }
+  
+  let student3 = new children("keya", 31, 1302020015);
+  student3.display();

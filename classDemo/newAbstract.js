@@ -13,27 +13,24 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var Mamber = /** @class */ (function () {
-    function Mamber(mamberName, mamberAge) {
-        this.personName = mamberName;
-        this.mamberAge = mamberAge;
+var Person = /** @class */ (function () {
+    function Person(userName, age) {
+        this.userName = userName;
+        this.age = age;
     }
-    Mamber.prototype.display = function () {
-        console.log("Mamber mamber name: ".concat(this.personName, " \n Mamber Age :").concat(this.mamberAge));
-    };
-    return Mamber;
+    return Person;
 }());
 var children = /** @class */ (function (_super) {
     __extends(children, _super);
-    function children(personName, mamberAge, mamberId) {
-        var _this = _super.call(this, personName, mamberAge) || this;
-        _this.mamberId = mamberId;
+    function children(userName, age, studentId) {
+        var _this = _super.call(this, userName, age) || this;
+        _this.studentId = studentId;
         return _this;
     }
     children.prototype.display = function () {
-        console.log("this is Name: ".concat(this.personName, " \n Age: ").concat(this.mamberAge, " \n Mamber ID : ").concat(this.mamberId));
+        console.log("username: ".concat(this.userName, ", age: ").concat(this.age, ", id: ").concat(this.studentId));
     };
     return children;
-}(Mamber));
-var name3 = new children("subrata", 45, 56);
-name3.display();
+}(Person));
+var student3 = new children("keya", 31, 1302020015);
+student3.display();

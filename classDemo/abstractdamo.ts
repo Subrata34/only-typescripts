@@ -25,3 +25,6 @@ class Children extends PersonName{
 
 let person=new Children("subrata",47,56);
 person.display();
+
+let user3=new PersonName("anisul haque ",45);
+user3.display();

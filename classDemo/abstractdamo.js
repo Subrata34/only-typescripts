@@ -37,3 +37,5 @@ var Children = /** @class */ (function (_super) {
 }(PersonName));
 var person = new Children("subrata", 47, 56);
 person.display();
+var user3 = new PersonName("anisul haque ", 45);
+user3.display();
