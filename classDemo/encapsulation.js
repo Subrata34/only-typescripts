@@ -38,3 +38,6 @@ var Userprotect = /** @class */ (function (_super) {
 }(UserName));
 var userprofile = new Userprotect("hamid", 78, 67);
 userprofile.display();
+var userperson = new UserName("sriload vaggo", 25);
+userperson.providerName = "vaggo";
+console.log(userperson);

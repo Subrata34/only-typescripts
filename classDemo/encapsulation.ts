@@ -1,7 +1,7 @@
 //private,public,redonly,protected
 class UserName{
-    providerName:string;
-    providerAge:number;
+    public providerName:string;
+    public providerAge:number;
 
     constructor(provider:string,age:number){
         this.providerName=provider;
@@ -27,3 +27,7 @@ class Userprotect extends UserName{
 
 let userprofile=new Userprotect("hamid",78,67);
 userprofile.display();
+
+let userperson=new UserName("sriload vaggo",25);
+userperson.providerName="vaggo";
+console.log(userperson);
