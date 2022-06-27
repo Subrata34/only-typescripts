@@ -1,4 +1,4 @@
-class Username {
+ class Username {
     userName: string;
     age: number;
   
