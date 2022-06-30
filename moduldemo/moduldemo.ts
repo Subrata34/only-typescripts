@@ -1,6 +1,6 @@
 
 //modulation
-let studentName:string="s
+let studentName:string="subrata"
 function displayInfo():void{
     console.log(`${studentName}\n${studentAge}`)
 
