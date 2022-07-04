@@ -1,3 +1,4 @@
+//import files
 import {studentName,studentAge} from "./student";
 //modulation
 
