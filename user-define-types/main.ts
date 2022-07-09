@@ -1,8 +1,18 @@
 
-function Demofunction(){
-    for(var i=0;i<6;i++){
-        console.log(i);
+//class 
+class Point{
+    x:number;
+    y:number;
+    constructor(x:number,y:number){
+        console.log('X :' +this.x + 'Y :' +this.y)
     }
-    console.log('finally :' +i);
+
+    draw(){
+     console.log('X :' +this.x+ ',Y :'+this.y);
+    }
+   
 }
-Demofunction();
+let point=new Point();
+point.x=1;
+point.y=2;
+point.draw();
